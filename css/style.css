@@ -550,7 +550,7 @@ End-responsible-contents  only-pc
     }
   .pageTabs li {
     width: 48%;
-    font-size: 13px;
+    font-size: 12px;
     padding-right: 8px;
   }
   .pageTabs li:nth-child(2n) {
