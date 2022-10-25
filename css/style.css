@@ -465,6 +465,9 @@ End-responsible-contents  only-pc
 .maps .lists a{
     min-height: 120px;
     }
+.pageTabs li {
+    font-size: 12px;
+  }
 }
 
 
@@ -550,17 +553,22 @@ End-responsible-contents  only-pc
     }
   .pageTabs li {
     width: 48%;
-    font-size: 12px;
+/*    font-size: 12px;*/
     padding-right: 8px;
   }
   .pageTabs li:nth-child(2n) {
     padding-right: 0;
   }
+  .pageTabs li:last-child {
+    font-size: 10px;
+  }
   .pageTabs li a {
     padding: 12px 0;
     border-width: 1px;
   }
-
+  .pageTabs li:last-child a{
+    padding: 14px 0;
+  }
   .land-list .tit{
     font-size: 20px;
     letter-spacing: .2em;
