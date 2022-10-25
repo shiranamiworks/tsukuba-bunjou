@@ -141,8 +141,8 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBokYoddEh7FMHnqkfCSvJpf-5
     let map;
     const area = document.getElementById("map");
     const center = {
-      lat: 36.02472016787088,
-      lng: 140.08030581164758
+      lat: 36.00504686004736, 
+      lng: 140.05277570872082,
     };
 
     const styles = [
@@ -171,12 +171,12 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBokYoddEh7FMHnqkfCSvJpf-5
         "lat": 36.001668869906744,
         "lng": 140.03131096441786,
       },
-      {
-        "name": "フューチャーコートみらい平<br>「みらい平」駅より徒歩4分",
-        "type": "pin03",
-        "lat": 35.9966118993297,
-        "lng": 140.041004477229,
-      },
+//      {
+//        "name": "フューチャーコートみらい平<br>「みらい平」駅より徒歩4分",
+//        "type": "pin03",
+//        "lat": 35.9966118993297,
+//        "lng": 140.041004477229,
+//      },
       {
         "name": "コモンステージみどりの<br>「みどりの」駅より徒歩19分",
         "type": "pin01",
@@ -237,12 +237,18 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBokYoddEh7FMHnqkfCSvJpf-5
         "lat": 36.0054487574148,
         "lng": 140.170207926392,
       }, 
+//      {
+//        "name": "マストタウン松前台<br>新守谷駅から徒歩24分",
+//        "type": "pin01",
+//        "lat": 35.972199154570674,  
+//        "lng": 139.9703197367322,
+//      },
       {
-        "name": "マストタウン松前台<br>新守谷駅から徒歩24分",
+        "name": "コモンステージ戸頭<br>「戸頭」駅より徒歩8分～9分",
         "type": "pin01",
-        "lat": 35.972199154570674,  
-        "lng": 139.9703197367322,
-      },
+        "lat": 35.92887492103409, 
+        "lng": 140.00919152413948,
+      }, 
     ];
 
     const marker = [];
@@ -296,7 +302,7 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBokYoddEh7FMHnqkfCSvJpf-5
         <ul>
             <li><img src="./images/pin.svg" alt="建築条件付宅地分譲">建築条件付宅地分譲</li>
             <li><img src="./images/pin02.svg" alt="建築条件付宅地分譲+建売分譲">建築条件付宅地分譲+建売分譲</li>
-            <li><img src="./images/pin03.svg" alt="建売分譲">建売分譲</li>
+<!--            <li><img src="./images/pin03.svg" alt="建売分譲">建売分譲</li>-->
         </ul>
     </div>
     <div id="gmap" class="gmap" ></div>
@@ -315,13 +321,16 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBokYoddEh7FMHnqkfCSvJpf-5
           <p class="btn sp">分譲地ページ</p>
         </a>
       </li><!-- list02 -->
+<!--
       <li class="list list03">
         <a href="https://www.sekisuihouse.co.jp/bunjou/1/08235/b350007/s364003/10885/06.html"  target="_blank" class="list-anchor" data-num="2">
           <p class="name">フューチャーコート<br class="sp">みらい平</p>
           <p class="info01">住所：<br class="sp">つくばみらい市陽光台</p>
           <p class="btn sp">建売ページ</p>
         </a>
-      </li><!-- list03 -->
+      </li>
+-->
+        <!-- list03 -->
       <li class="list list04">
         <a href="https://www.sekisuihouse.co.jp/bunjou/0/08220/b350007/s364003/00010059/06.html" target="_blank" class="list-anchor" data-num="3">
           <p class="name">コモンステージ<br class="sp">みどりの</p>
@@ -389,19 +398,29 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBokYoddEh7FMHnqkfCSvJpf-5
 -->
         <!-- list12 -->
       <li class="list list13">
-        <a href="https://www.sekisuihouse.co.jp/bunjou/0/08219/b350007/s364003/00010021/06.html" target="_blank" class="list-anchor pin02" data-num="11">
+        <a href="https://www.sekisuihouse.co.jp/bunjou/0/08219/b350007/s364003/00010021/06.html" target="_blank" class="list-anchor pin02" data-num="12">
           <p class="name">コモンステージ<br class="sp">ひたち野うしく</p>
           <p class="info01">住所：<br class="sp">牛久市ひたち野東</p>
           <p class="btn sp">分譲地ページ</p>
         </a>
       </li><!-- list13 -->
+<!--
       <li class="list list14">
-        <a href="https://www.sekisuihouse.co.jp/bunjou/4/08224/b350007/s364003/00011037/06.html" target="_blank" class="list-anchor pin02" data-num="12">
+        <a href="https://www.sekisuihouse.co.jp/bunjou/4/08224/b350007/s364003/00011037/06.html" target="_blank" class="list-anchor pin02" data-num="13">
           <p class="name">マストタウン松前台</p>
           <p class="info01">住所：<br class="sp">守谷市松前台</p>
           <p class="btn sp">分譲地ページ</p>
         </a>
-      </li><!-- list14 -->
+      </li>
+-->
+        <!-- list14 -->     
+      <li class="list list15">
+        <a href="https://www.sekisuihouse.co.jp/bunjou/0/08217/b350007/s364003/00011204/06.html" target="_blank" class="list-anchor pin02" data-num="14">
+          <p class="name">コモンステージ<br class="sp">戸頭</p>
+          <p class="info01">住所：<br class="sp">取手市戸頭</p>
+          <p class="btn sp">分譲地ページ</p>
+        </a>
+      </li><!-- list13 -->
     </ul>
   </div>
                                 
@@ -462,6 +481,7 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBokYoddEh7FMHnqkfCSvJpf-5
                                   </a>
                                 </div>
                               </li>-->
+<!--
                               <li>
                                 <div class="image">
                                   <img src="./images/list01-04.jpg" alt="フューチャーコートみらい平">
@@ -476,6 +496,7 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBokYoddEh7FMHnqkfCSvJpf-5
                                   </a>
                                 </div>
                               </li>
+-->
                             </ul>
                             <h2 class="tit" id="land02">＜ みどりの駅 ＞</h2>
                             <ul class="lists list01">
@@ -595,7 +616,7 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBokYoddEh7FMHnqkfCSvJpf-5
                                 </div>
                               </li>
                             </ul>
-                            <h2 class="tit" id="land04">≪ 常磐線・常総線沿線 ≫</h2>
+                            <h2 class="tit" id="land04">≪ 常磐線沿線 ≫</h2>
                             <ul class="lists list01">
 <!--
                               <li>
@@ -633,6 +654,7 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBokYoddEh7FMHnqkfCSvJpf-5
                                   </a>
                                 </div>
                               </li>
+<!--
                               <li>
                                 <div class="image">
                                   <img src="./images/list01-11.jpg" alt="マストタウン松前台">
@@ -643,6 +665,24 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBokYoddEh7FMHnqkfCSvJpf-5
                                 </div>
                                 <div class="btn">
                                   <a href="https://www.sekisuihouse.co.jp/bunjou/4/08224/b350007/s364003/00011037/06.html" target="_blank">
+                                    <p class="more">分譲地ページ</p>
+                                  </a>
+                                </div>
+                              </li>
+-->
+                              <li>
+                                <div class="image">
+                                  <img src="./images/list01-13.jpg" alt="コモンステージ戸頭">
+                                </div>
+                                <div class="texts">
+                                  <p class="name">コモンステージ戸頭</p>
+                                  <p class="min">JR常総線<br>「戸頭」駅より徒歩8分～9分<br>2区画</p>
+                                </div>
+                                <div class="btn">
+                                  <a href="https://www.sekisuihouse.co.jp/bunjou/0/08219/b350007/s364003/00010021/06.html" target="_blank" class="pc">
+                                    <p class="more">分譲地ページ</p>
+                                  </a>
+                                  <a href="https://www.sekisuihouse.co.jp/bunjou/smp/0/08219/b350007/s364003/00010021/06.html" target="_blank" class="sp">
                                     <p class="more">分譲地ページ</p>
                                   </a>
                                 </div>
