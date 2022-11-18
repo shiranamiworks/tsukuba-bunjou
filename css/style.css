@@ -325,7 +325,7 @@ End-responsible-contents  only-pc
 }
 .maps .lists a{
     display: block;
-    padding: 20px 0 20px 50px;
+    padding: 20px 20px 20px 50px;
     position: relative;
     box-sizing: border-box;
     min-height: 105px;
