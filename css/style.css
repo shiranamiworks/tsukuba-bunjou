@@ -240,6 +240,7 @@ End-responsible-contents  only-pc
   font-size: 14px;
   border-radius: 4px;
 }
+/*
 .btn a::after{
   content: '';
   display: inline-block;
@@ -250,6 +251,7 @@ End-responsible-contents  only-pc
   right: 10px;
   background: url(../images/arrow04.png) no-repeat center center;
 }
+*/
 .btn a:hover{
   opacity: 1 !important;
   background: #fff;
