@@ -358,7 +358,8 @@ End-responsible-contents  only-pc
     left:15px;
     transform: translateY(-50%);
 }
-.maps .lists .list02 a:after{
+.maps .lists .list02 a:after,
+.maps .lists .list19 a:after{
     background: url(../images/pin03.svg);
     background-size: cover;
 }
