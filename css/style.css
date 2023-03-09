@@ -380,9 +380,12 @@ End-responsible-contents  only-pc
 }
 .pageTabs li {
   display: inline-block;
-  width: 20%;
-  padding-right: 10px;
+  width: 18%;
+  padding-right: 5px;
   padding-bottom: 10px;
+}
+.pageTabs li:nth-child(4) {
+  width: 20%;
 }
 .pageTabs li:last-child {
   padding-right: 0;
@@ -559,10 +562,13 @@ End-responsible-contents  only-pc
 /*    font-size: 12px;*/
     padding-right: 8px;
   }
+  .pageTabs li:nth-child(4) {
+    width: 48%;
+  }
   .pageTabs li:nth-child(2n) {
     padding-right: 0;
   }
-  .pageTabs li:last-child {
+  .pageTabs li:nth-child(4),.pageTabs li:last-child {
     font-size: 10px;
   }
   .pageTabs li a {
