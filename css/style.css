@@ -380,13 +380,15 @@ End-responsible-contents  only-pc
 }
 .pageTabs li {
   display: inline-block;
-  width: 18%;
+  width: 32%;
   padding-right: 5px;
   padding-bottom: 10px;
 }
+/*
 .pageTabs li:nth-child(4) {
   width: 20%;
 }
+*/
 .pageTabs li:last-child {
   padding-right: 0;
 }
