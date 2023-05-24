@@ -522,13 +522,17 @@ End-responsible-contents  only-pc
     }
   .maps .lists li{
     width: 50%;
+    border-bottom: none;
+    border-top: 1px solid rgba(43,77,98,0.15);
   }
-  .maps .lists li:nth-child(2n+1){
+.maps .lists li:nth-child(2n+1){
     clear: both;
   }
+/*
   .maps .lists li:nth-child(3n+1){
     clear: none;
   }
+*/
   .maps .lists a{
     padding: 10px 0 10px 40px;
     position: relative;
