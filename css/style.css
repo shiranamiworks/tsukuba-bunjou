@@ -359,7 +359,8 @@ End-responsible-contents  only-pc
     transform: translateY(-50%);
 }
 .maps .lists .list02 a:after,
-.maps .lists .list19 a:after{
+.maps .lists .list19 a:after,
+.maps .lists .list25 a:after{
     background: url(../images/pin03.svg);
     background-size: cover;
 }
@@ -524,6 +525,9 @@ End-responsible-contents  only-pc
     width: 50%;
     border-bottom: none;
     border-top: 1px solid rgba(43,77,98,0.15);
+  }
+  .maps .lists li.list14{
+    border-bottom: 1px solid rgba(43,77,98,0.15);
   }
 .maps .lists li:nth-child(2n+1){
     clear: both;
