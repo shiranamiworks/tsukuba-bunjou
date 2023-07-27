@@ -159,12 +159,13 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBokYoddEh7FMHnqkfCSvJpf-5
       styles: styles
     });
 
-    const markerData = [{
-        "name": "コモンステージみらい平<br>「みらい平」駅より徒歩7分～8分",
-        "type": "pin01",
-        "lat": 35.990343351992,
-        "lng": 140.037432437868,
-      },
+    const markerData = [
+//        {
+//        "name": "コモンステージみらい平<br>「みらい平」駅より徒歩7分～8分",
+//        "type": "pin01",
+//        "lat": 35.990343351992,
+//        "lng": 140.037432437868,
+//      },
 //      {
 //        "name": "コモンステージTHEみらい<br>「みらい平」駅より徒歩17分",
 //        "type": "pin03",
@@ -303,24 +304,24 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBokYoddEh7FMHnqkfCSvJpf-5
         "lat": 36.033945811948385,
         "lng": 140.06468892018736,
       }, 
-      {
-        "name": "コモンステージ万博香取台A6街区<br>「万博記念公園」駅より徒歩19分（最長）",
-        "type": "pin01",
-        "lat": 36.06884091763513,
-        "lng": 140.05530357480032,
-      }, 
+//      {
+//        "name": "コモンステージ万博香取台A6街区<br>「万博記念公園」駅より徒歩19分（最長）",
+//        "type": "pin01",
+//        "lat": 36.06884091763513,
+//        "lng": 140.05530357480032,
+//      }, 
       {
         "name": "コモンステージ万博香取台<br>「万博記念公園」駅より徒歩17分",
         "type": "pin03",
         "lat": 36.066572633603414,
         "lng": 140.05399515032522,
       }, 
-      {
-        "name": "コモンステージ陣場E17街区<br>「万博記念公園」駅より徒歩23分（最長）",
-        "type": "pin01",
-        "lat": 36.04626383671412,
-        "lng": 140.06220144284853,
-      }, 
+//      {
+//        "name": "コモンステージ陣場E17街区<br>「万博記念公園」駅より徒歩23分（最長）",
+//        "type": "pin01",
+//        "lat": 36.04626383671412,
+//        "lng": 140.06220144284853,
+//      }, 
     ]; 
 
     const marker = [];
@@ -380,13 +381,16 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBokYoddEh7FMHnqkfCSvJpf-5
     <div id="gmap" class="gmap" ></div>
     <div class="lists">
     <ul class="clearfix">
+<!--
       <li class="list list01">
         <a href="https://www.sekisuihouse.co.jp/bunjou/0/08235/b350007/s364003/00010218/06.html" target="_blank" class="list-anchor" data-num="0">
           <p class="name">コモンステージ<br class="sp">みらい平</p>
           <p class="info01">住所：<br class="sp">つくばみらい市陽光台</p>
           <p class="btn sp">分譲地ページ</p>
         </a>
-      </li><!-- list01 -->
+      </li>
+-->
+        <!-- list01 -->
 <!--
       <li class="list list02">
         <a href="https://www.sekisuihouse.co.jp/bunjou/1/08235/b350007/s364003/00010571/06.html"  target="_blank"　class="list-anchor" data-num="1">
@@ -428,6 +432,7 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBokYoddEh7FMHnqkfCSvJpf-5
           <p class="btn sp">分譲地ページ</p>
         </a>
       </li><!-- list04 -->
+<!--
       <li class="list list23">
         <a href="https://www.sekisuihouse.co.jp/bunjou/0/08220/b350007/s364003/00011530/06.html" target="_blank" class="list-anchor pin02" data-num="10">
           <p class="name">コモンステージ<br class="sp">陣場E17街区</p>
@@ -435,6 +440,7 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBokYoddEh7FMHnqkfCSvJpf-5
           <p class="btn sp">分譲地ページ</p>
         </a>
       </li>
+-->
         <!-- list23 -->
       <li class="list list22">
         <a href="https://www.sekisuihouse.co.jp/bunjou/0/08220/b350007/s364003/00011890/06.html" target="_blank" class="list-anchor" data-num="3">
@@ -513,6 +519,7 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBokYoddEh7FMHnqkfCSvJpf-5
       </li>
 -->
         <!-- list11 -->
+<!--
       <li class="list list24">
         <a href="https://www.sekisuihouse.co.jp/bunjou/0/08220/b350007/s364003/00011817/06.html" target="_blank" class="list-anchor pin02" data-num="10">
           <p class="name">コモンステージ<br class="sp">万博香取台Ａ6街区</p>
@@ -520,6 +527,7 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBokYoddEh7FMHnqkfCSvJpf-5
           <p class="btn sp">分譲地ページ</p>
         </a>
       </li>
+-->
         <!-- list24 -->
       <li class="list list25">
         <a href="https://www.sekisuihouse.co.jp/bunjou/1/08220/b350007/s364003/00012087/06.html" target="_blank" class="list-anchor pin02" data-num="10">
@@ -638,6 +646,7 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBokYoddEh7FMHnqkfCSvJpf-5
                           </ul>
                             <h2 class="tit">＜ みらい平駅 ＞</h2>
                             <ul class="lists list01">
+<!--
                               <li>
                                 <div class="image">
                                   <img src="./images/list01-01.jpg" alt="コモンステージみらい平">
@@ -655,6 +664,7 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBokYoddEh7FMHnqkfCSvJpf-5
                                   </a>
                                 </div>
                               </li>
+-->
 <!--
                               <li>
                                 <div class="image">
@@ -825,6 +835,7 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBokYoddEh7FMHnqkfCSvJpf-5
                                   </a>
                                 </div>
                               </li>
+<!--
                               <li>
                                 <div class="image">
                                   <img src="./images/list01-23.jpg" alt="コモンステージ陣場E17街区">
@@ -853,6 +864,7 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBokYoddEh7FMHnqkfCSvJpf-5
                                   </a>
                                 </div>
                               </li>
+-->
 <!--
                               <li>
                                 <div class="image">
