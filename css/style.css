@@ -330,7 +330,7 @@ End-responsible-contents  only-pc
     padding: 20px 20px 20px 50px;
     position: relative;
     box-sizing: border-box;
-    min-height: 105px;
+    min-height: 133px;
 }
 .maps .lists .name{
     font-size: 18px;
@@ -473,7 +473,7 @@ End-responsible-contents  only-pc
 
 @media screen and (max-width:1024px) {
 .maps .lists a{
-    min-height: 120px;
+    min-height: 133px;
     }
 .pageTabs li {
     font-size: 12px;
@@ -539,7 +539,7 @@ End-responsible-contents  only-pc
   }
 */
   .maps .lists a{
-    padding: 10px 0 10px 40px;
+    padding: 10px 5px 10px 40px;
     position: relative;
     min-height: 86px;
   }
