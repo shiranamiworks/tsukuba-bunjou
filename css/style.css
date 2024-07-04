@@ -436,6 +436,14 @@ End-responsible-contents  only-pc
   margin-bottom: 50px;
   background: #efefef;
 }
+.land-list .lists li .image{
+  position: relative;
+}
+.land-list .lists li .image .caption{
+  left: 0;
+  right: auto;
+  text-align: left;
+}
 .land-list .lists li:last-child,.land-list .lists li:nth-child(3n){
   clear: both;
   margin-right: auto;
