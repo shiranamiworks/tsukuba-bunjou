@@ -362,7 +362,8 @@ End-responsible-contents  only-pc
 .maps .lists .list25 a:after,
 .maps .lists .list28 a:after,
 .maps .lists .list36-1 a:after,
-.maps .lists .list41 a:after{
+.maps .lists .list41 a:after,
+.maps .lists .list54 a:after{
     background: url(../images/pin03.svg);
     background-size: cover;
 }
