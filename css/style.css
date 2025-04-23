@@ -378,7 +378,7 @@ End-responsible-contents  only-pc
     display: none ;
 }
 .pageTabs {
-  padding-bottom: 20px !important;
+  padding-bottom: 50px !important;
   text-align: center;
   font-size: 14px;
 }
@@ -577,6 +577,7 @@ End-responsible-contents  only-pc
   }
   .content-wrap .pageTabs{
     margin: auto;
+    padding-bottom: 25px !important;
     }
   .pageTabs li {
     width: 48%;
@@ -589,14 +590,14 @@ End-responsible-contents  only-pc
   .pageTabs li:nth-child(2n) {
     padding-right: 0;
   }
-  .pageTabs li:nth-child(4),.pageTabs li:last-child {
+  .pageTabs li:first-child,.pageTabs li:last-child {
     font-size: 10px;
   }
   .pageTabs li a {
     padding: 12px 0;
     border-width: 1px;
   }
-  .pageTabs li:last-child a{
+  .pageTabs li:first-child a,.pageTabs li:last-child a{
     padding: 14px 0;
   }
   .land-list .tit{
