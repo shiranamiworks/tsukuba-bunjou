@@ -437,7 +437,7 @@ End-responsible-contents  only-pc
   width: 31%;
   margin-right: 2%;
   margin-bottom: 50px;
-  background: #efefef;
+  background: #424245;
 }
 .land-list .lists li .image{
   position: relative;
@@ -454,6 +454,7 @@ End-responsible-contents  only-pc
 .land-list .lists li .texts{
   padding: 5px 0;
   box-sizing: border-box;
+  color: #fff;
 }
 .land-list .lists li .texts .name{
   font-size: 15px;
@@ -461,7 +462,7 @@ End-responsible-contents  only-pc
   font-weight: 500;
   padding-bottom: 5px;
   margin-bottom: 5px;
-  border-bottom: 1px solid;
+  border-bottom: .5px solid;
 }
 .land-list .lists li .texts .min{
   font-size: 12px;
